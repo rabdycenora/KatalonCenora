@@ -6,12 +6,12 @@
    <elementGuidId>55a64104-91da-493f-9497-8b4dbdabe000</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>iframe</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;q-app&quot;]/div[1]/iframe</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='q-app']/div/iframe</value>
+         <key>CSS</key>
+         <value>iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>a7559be1-ba2c-4ae1-8a7f-53e179d30f46</webElementGuid>
+      <webElementGuid>3636f1dc-d724-4184-88b8-37d77bbc6f0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://ncl.testing.consumer.cenora.io/widget?force=mobile</value>
-      <webElementGuid>60d7a5e6-e123-4778-a5b4-7b92bf035833</webElementGuid>
+      <webElementGuid>c883f877-34a0-481a-afcf-f4f98df65513</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[1]/iframe[1]</value>
-      <webElementGuid>aad73439-da36-42b4-ab80-2b0b8dc0185d</webElementGuid>
+      <webElementGuid>c92d2f22-92fe-4be8-825d-4ed931650243</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/iframe</value>
-      <webElementGuid>157a35bd-3828-47f1-8ff9-06f51d2623b5</webElementGuid>
+      <webElementGuid>0ce7317b-3959-4f81-afaf-db6303204a75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>c1472b45-a86e-447e-9140-493908c3820f</webElementGuid>
+      <webElementGuid>f2a9495c-c25b-4780-be01-352797138f08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@src = 'https://ncl.testing.consumer.cenora.io/widget?force=mobile']</value>
-      <webElementGuid>a659327b-2379-4472-afb1-192523bf4c66</webElementGuid>
+      <webElementGuid>9935fbb2-63f3-4cc7-b71f-fbed5ed18194</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

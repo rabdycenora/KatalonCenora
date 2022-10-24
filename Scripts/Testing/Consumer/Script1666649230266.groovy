@@ -23,9 +23,28 @@ WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
 
 WebUI.maximizeWindow()
 
-Code = WebUI.getText(findTestObject('Object Repository/Consumer/Page_NCL/span_5443'))
+Code = WebUI.getText(findTestObject('Consumer/Page_NCL/span_Code'))
 
-WebUI.navigateToUrl('https://www.google.es/')
+System.out.println('El valor del Code es: ' + Code)
 
-WebUI.setText(findTestObject('Consumer/Page_NCL/span_5443 - Copy'), Code)
+WebUI.navigateToUrl(GlobalVariable.AgentTesting)
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+    Code)
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_5443 - Copy</name>
+   <name>span_Message_Agent</name>
    <tag></tag>
    <elementGuidId>2a00bcc0-7ea0-4e17-926e-c0892ed41140</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@aria-label='Buscar']</value>
+         <value>//*[@id=&quot;q-app&quot;]/div[1]/div/div[2]/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ac759064-c30b-44a2-a9d4-e6b5a174763d</webElementGuid>
+      <webElementGuid>8e6077ff-b134-4cb0-b1a7-86c31a6b6050</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5443</value>
-      <webElementGuid>d680398f-a7b9-444f-bd38-1fdc5e1f6c1b</webElementGuid>
+      <webElementGuid>d6123ab7-ca2e-45ee-bfe0-d503f7a125a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width&quot;]/div[@class=&quot;full-height column q-px-lg q-py-xl content-center items-center justify-between bg-gradient text-white&quot;]/div[3]/div[@class=&quot;access-code-box&quot;]/span[1]</value>
-      <webElementGuid>a7bb4ff6-ac4b-4f35-82fd-d1bed2810367</webElementGuid>
+      <webElementGuid>11317f8b-2d5e-4550-b4ef-7308075ecab6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Consumer/Page_NCL/iframe</value>
-      <webElementGuid>fb0782a7-f762-43d7-85c7-bff957665d2b</webElementGuid>
+      <webElementGuid>d1a58155-88dc-41af-909d-5f130c8049d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div[3]/div/span</value>
-      <webElementGuid>881745a1-ce5e-4622-8968-6977a2f66490</webElementGuid>
+      <webElementGuid>01b48898-ea34-46c3-be61-c7ef4e49a25a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please pass the following code to our sales agent'])[1]/following::span[1]</value>
-      <webElementGuid>678d7780-05ee-489d-a331-e90ee6b2e370</webElementGuid>
+      <webElementGuid>2c2bd5cc-c578-4e81-996d-407ac5e93db9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy.'])[1]/preceding::span[1]</value>
-      <webElementGuid>5326f8c3-6a83-4c87-9125-b9a60548abfd</webElementGuid>
+      <webElementGuid>ec243e2d-97cb-423d-bfe5-7db8e0d9f130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Oops...Something didn', &quot;'&quot;, 't work as expected.')])[1]/preceding::span[1]</value>
-      <webElementGuid>ffc738d3-1399-490f-bfbd-a1ea66ae5aeb</webElementGuid>
+      <webElementGuid>7124839a-2ff0-4f30-b86a-6c48a0897ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='5443']/parent::*</value>
-      <webElementGuid>607ae663-5905-485f-b726-7bebf40b0a41</webElementGuid>
+      <webElementGuid>ac49dca8-2bec-4b32-80ac-26fc08de9a81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/span</value>
-      <webElementGuid>73d7ab31-e729-4493-ae6b-1fb3f27a323f</webElementGuid>
+      <webElementGuid>adfef388-b8d5-4c4e-9518-7afbfd579d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '5443' or . = '5443')]</value>
-      <webElementGuid>fe0f44fa-0648-401f-a18d-f0ad18dab345</webElementGuid>
+      <webElementGuid>9db8d4a9-b69a-42d4-9e80-160deed20401</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
