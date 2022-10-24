@@ -17,3 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Testing/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/input_Search'), 
+    'Denali-Alyeska Explorer - Northbound Cruisetou')
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/span_add        Invite'))
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/span_Invite By Link'))
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/i_content_copy'))
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/div_north_eastEnter Sectionmore_horiz'))
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/html_NCL Live Experience.json-formatter-row_66b7c5'))
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/span_END SESSION'))
+
+WebUI.click(findTestObject('Object Repository/Drap and Drop/Page_NCL Live Experience/span_END SESSION_1'))
+

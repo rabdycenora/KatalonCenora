@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login2</name>
+   <name>Drag and Drop</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7d0707ca-6aa2-4eab-aa57-c0b5f9286584</testCaseGuid>
+   <testCaseGuid>38fda9a0-5353-435d-8bba-e8b275d5c7fb</testCaseGuid>
 </TestCaseEntity>

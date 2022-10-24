@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_north_eastEnter Sectionmore_horiz</name>
+   <tag></tag>
+   <elementGuidId>ec6e9d34-f9d4-4ac4-9048-64a200b6eeb4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dcard-action-overlay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div[2]/main/div[2]/div/div/div/div[2]/div/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>44a2aacf-ead1-4f3f-8049-5bc81f8820a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dcard-action-overlay</value>
+      <webElementGuid>c3caf4d7-295c-41e4-9bb7-40b46108f767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>north_eastEnter Sectionmore_horiz</value>
+      <webElementGuid>5a6fe480-b714-4f52-baef-baef105d32c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-page-container&quot;]/main[@class=&quot;q-page&quot;]/div[2]/div[1]/div[@class=&quot;full-width&quot;]/div[@class=&quot;q-infinite-scroll&quot;]/div[@class=&quot;row q-px-xl q-py-md q-gutter-x-lg q-gutter-y-lg justify-center bg-grey-3&quot;]/div[@class=&quot;shadow-2-card&quot;]/div[4]/div[@class=&quot;dcard-action-overlay&quot;]</value>
+      <webElementGuid>251a692d-d063-477a-906c-88fbf9c30c88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Drap and Drop/Page_NCL Live Experience/iframe_START_extension-iframe</value>
+      <webElementGuid>413bbd13-340f-47ab-b723-0595870b5e44</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div[2]/main/div[2]/div/div/div/div[2]/div/div[4]/div</value>
+      <webElementGuid>e7b8de18-13d3-487a-b0ab-9d68630e3856</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seward, Alaska'])[1]/following::div[4]</value>
+      <webElementGuid>c5d3876e-b1de-4fe2-a072-47cd82e9eefd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skagway, Alaska'])[1]/following::div[4]</value>
+      <webElementGuid>f9e439ef-5001-402b-a0b1-39336566b351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INFORMATION'])[1]/preceding::div[9]</value>
+      <webElementGuid>acb47360-6e8c-46d0-9714-8c087c883a6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[4]/div</value>
+      <webElementGuid>98156c03-2675-461f-98ce-2fbc5cb8d81b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'north_eastEnter Sectionmore_horiz' or . = 'north_eastEnter Sectionmore_horiz')]</value>
+      <webElementGuid>bf736d09-2792-46b2-8231-edae1b7bf95f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

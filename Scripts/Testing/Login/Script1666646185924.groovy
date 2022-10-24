@@ -17,3 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.AgentStaging)
+
+WebUI.maximizeWindow()
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+
+WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+    20)
+
+WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+    GlobalVariable.User)
+
+WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
+
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/span_Log In'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/div_Check_The_Cruises'), 0)
+

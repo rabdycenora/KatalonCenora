@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_5443</name>
+   <tag></tag>
+   <elementGuidId>d66479c5-a429-491b-8e23-d967f93da664</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;q-app&quot;]/div[1]/div/div[3]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.access-code-box > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>19d262b2-9b42-4e0c-82d5-1457b7b3c753</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5443</value>
+      <webElementGuid>8e99f7aa-4c44-4688-9fb2-a9aca51aa8f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width&quot;]/div[@class=&quot;full-height column q-px-lg q-py-xl content-center items-center justify-between bg-gradient text-white&quot;]/div[3]/div[@class=&quot;access-code-box&quot;]/span[1]</value>
+      <webElementGuid>17602532-4060-4ea2-8ca2-d1aecc1fb595</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Consumer/Page_NCL/iframe</value>
+      <webElementGuid>9e242fab-f070-4dd9-bfd6-e40f058e4f98</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/div[3]/div/span</value>
+      <webElementGuid>05a920d9-e7a8-4608-acae-958af0695323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please pass the following code to our sales agent'])[1]/following::span[1]</value>
+      <webElementGuid>aaacc0f0-03ff-4a1f-b69e-c9c0697f1c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy.'])[1]/preceding::span[1]</value>
+      <webElementGuid>369d68e1-730b-42c4-85e7-c5bad951255a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Oops...Something didn', &quot;'&quot;, 't work as expected.')])[1]/preceding::span[1]</value>
+      <webElementGuid>bc3c0059-2af5-4aca-a9d3-73fc1804fb9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5443']/parent::*</value>
+      <webElementGuid>525d6604-bb65-4ade-a0a7-849a3c8148b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span</value>
+      <webElementGuid>112f97d6-15c4-49d8-bd0e-b9357d957d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '5443' or . = '5443')]</value>
+      <webElementGuid>0f06fcaa-067b-4508-b0c5-cf99eeba2916</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
