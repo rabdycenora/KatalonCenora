@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_seen</name>
+   <tag></tag>
+   <elementGuidId>e1b54803-6f08-4651-859c-f73e3840f049</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-uppercase.q-mr-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div[2]/aside/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div[6]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ea1a4af4-49cb-474d-9958-391a7f90d1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-uppercase q-mr-sm</value>
+      <webElementGuid>86cfab4d-5dc1-4e34-a611-648e7d8d9b39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      seen
+    </value>
+      <webElementGuid>9a272603-18af-446f-8002-0b14dbeeb201</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-drawer-container&quot;]/aside[@class=&quot;q-drawer q-drawer--right q-drawer--standard fixed&quot;]/div[@class=&quot;q-drawer__content fit scroll&quot;]/div[1]/div[@class=&quot;q-tab-panels q-panel-parent&quot;]/div[@class=&quot;q-panel scroll&quot;]/div[@class=&quot;q-tab-panel q-pa-none&quot;]/div[1]/div[@class=&quot;column justify-evenly items-center content-center overflow-hidden bg-white&quot;]/div[@class=&quot;bg-white&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;q-toolbar row no-wrap items-center bg-dark text-grey-2&quot;]/div[@class=&quot;full-width row justify-start content-center items-center&quot;]/div[@class=&quot;row justify-end items-center content-center q-pr-xs&quot;]/div[@class=&quot;row justify-end items-center content-center&quot;]/div[@class=&quot;text-uppercase q-mr-sm&quot;]</value>
+      <webElementGuid>65c156c8-44a8-420e-b51a-9d1386649c5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div[2]/aside/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div[6]/div/div</value>
+      <webElementGuid>8552b487-50dd-42d8-b9a2-3083bd38a3b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::div[6]</value>
+      <webElementGuid>58b64880-d203-4dcc-acdd-c4f1984affe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='END SESSION'])[1]/following::div[18]</value>
+      <webElementGuid>23a24c6d-7444-40b8-8105-a8cdd60a94cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Connecting...'])[1]/preceding::div[2]</value>
+      <webElementGuid>023b1345-0ec9-4c0c-b61d-ea17482be929</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='seen']/parent::*</value>
+      <webElementGuid>1d3709b5-07bc-45a2-bca2-63722ec6c741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div</value>
+      <webElementGuid>e1287212-553b-4a09-aaa7-88b973b7b962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+      seen
+    ' or . = '
+      seen
+    ')]</value>
+      <webElementGuid>6894422a-e535-446d-b5c2-d0df1b9c77f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
