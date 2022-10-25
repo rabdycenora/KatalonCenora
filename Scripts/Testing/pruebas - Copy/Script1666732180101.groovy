@@ -1,8 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,41 +12,64 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.openBrowser('google.com')
+WebUI.openBrowser('')
 
-openTab( //import org.openqa.selenium.Keys as Keys
-    ) /*TestObject body = new TestObject('body')
+WebUI.navigateToUrl(GlobalVariable.AgentTesting)
 
-body.addProperty('tag', ConditionType.EQUALS, 'body')
+WebUI.maximizeWindow()
 
-WebUI.sendKeys(body, Keys.chord(Keys.CONTROL + Keys.SHIFT + Keys.TAB))*/
+WebUI.takeScreenshot()
 
-Void openTab() {
-    String currentPage = WebUI.getUrl()
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    int currentTab = WebUI.getWindowIndex()
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    WebUI.navigateToUrl('https://www.mediawiki.org/wiki/Special:Contributions/')
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    TestObject helpButton = new TestObject('Help')
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    helpButton.addProperty('class', ConditionType.EQUALS, 'mw-helplink', true)
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    helpButton.addProperty('text', ConditionType.EQUALS, 'Help', true)
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    helpButton.addProperty('tag', ConditionType.EQUALS, 'a', true)
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    WebUI.click(helpButton)
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
 
-    WebUI.switchToWindowIndex(currentTab + 1)
+WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+    20)
 
-    WebUI.navigateToUrl(GlobalVariable.AgentTesting)
+WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+    GlobalVariable.User)
 
-    WebUI.switchToWindowIndex(currentTab)
+WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
 
-    WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/span_Log In'))
 
-    WebUI.switchToWindowIndex(currentTab + 1)
-}
+WebUI.click(findTestObject('pruebas_copy/Page_NCL Live Experience/i_apps'))
 
+WebUI.click(findTestObject('pruebas_copy/Page_NCL Live Experience/div_Dashboard'))
+
+
+
+//int currentTab = WebUI.getWindowIndex()
+
+//WebUI.switchToWindowIndex(currentTab + 1)
+
+//WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
+
+//WebUI.switchToWindowIndex(currentTab )
+
+
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
+
+WebUI.switchToWindowIndex(0)

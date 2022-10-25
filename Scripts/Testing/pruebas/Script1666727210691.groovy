@@ -46,11 +46,11 @@ Void openTab() {
 
     WebUI.switchToWindowIndex(currentTab + 1)
 
-    WebUI.navigateToUrl(currentPage)
+    WebUI.navigateToUrl(GlobalVariable.AgentTesting)
 
     WebUI.switchToWindowIndex(currentTab)
 
-    WebUI.navigateToUrl(currentPage)
+    WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
 
     WebUI.switchToWindowIndex(currentTab + 1)
 }
