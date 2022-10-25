@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div/div[1]/div/div[3]/child::div</value>
+         <value>//div[@id='q-app']/div/div/div[3]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6b0f3bd7-f3bb-497d-a6e0-d13a13e6f511</webElementGuid>
+      <webElementGuid>1bb9321b-1364-43af-ac49-a8b67ff9cb7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5443</value>
-      <webElementGuid>c1dcdeeb-e459-4cde-82b7-b740ff1c3fa0</webElementGuid>
+      <webElementGuid>678f8f25-51ee-423d-a8b6-924867e54fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width&quot;]/div[@class=&quot;full-height column q-px-lg q-py-xl content-center items-center justify-between bg-gradient text-white&quot;]/div[3]/div[@class=&quot;access-code-box&quot;]/span[1]</value>
-      <webElementGuid>e097ec25-e93a-410c-b987-3dc974932a94</webElementGuid>
+      <webElementGuid>93b46e8d-a2a0-4a2a-b86c-97dd966e3440</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Consumer/Page_NCL/iframe</value>
-      <webElementGuid>0cd0e6d7-fac6-4ee0-b455-06237b86cef5</webElementGuid>
+      <webElementGuid>8421f210-6b7a-418a-9715-e52a4dc3760f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div[3]/div/span</value>
-      <webElementGuid>07b31d99-46ec-4125-b544-a280979e2f08</webElementGuid>
+      <webElementGuid>6289ce17-ee4b-4381-8209-37535844539a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

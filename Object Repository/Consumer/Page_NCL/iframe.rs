@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;q-app&quot;]/div[1]/iframe</value>
+         <value>//div[@id='q-app']/div/iframe</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>3636f1dc-d724-4184-88b8-37d77bbc6f0c</webElementGuid>
+      <webElementGuid>244a8d38-59be-4734-9092-a67c5fb75f4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://ncl.testing.consumer.cenora.io/widget?force=mobile</value>
-      <webElementGuid>c883f877-34a0-481a-afcf-f4f98df65513</webElementGuid>
+      <webElementGuid>b7fbc71f-c797-490d-896a-247d5d697ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[1]/iframe[1]</value>
-      <webElementGuid>c92d2f22-92fe-4be8-825d-4ed931650243</webElementGuid>
+      <webElementGuid>f0aac1f6-e967-4aab-879d-6cfeaced9091</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/iframe</value>
-      <webElementGuid>0ce7317b-3959-4f81-afaf-db6303204a75</webElementGuid>
+      <webElementGuid>b2e8e213-5dc1-41b7-9116-bc4c6d2888e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>f2a9495c-c25b-4780-be01-352797138f08</webElementGuid>
+      <webElementGuid>fbc950cc-8651-4b28-9c3d-5f1020f02b4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@src = 'https://ncl.testing.consumer.cenora.io/widget?force=mobile']</value>
-      <webElementGuid>9935fbb2-63f3-4cc7-b71f-fbed5ed18194</webElementGuid>
+      <webElementGuid>d964f3d9-575b-433a-9929-c0389059ef7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

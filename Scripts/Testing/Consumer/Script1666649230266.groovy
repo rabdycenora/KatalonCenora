@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
 
 WebUI.maximizeWindow()
 
+WebUI.click(findTestObject('Consumer/Page_NCL/span_Code'))
+
 Code = WebUI.getText(findTestObject('Consumer/Page_NCL/span_Code'))
 
 System.out.println('El valor del Code es: ' + Code)
