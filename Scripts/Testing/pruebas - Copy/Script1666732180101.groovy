@@ -20,8 +20,8 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.openBrowser('google.com')
 
-openTab() //import org.openqa.selenium.Keys as Keys
-/*TestObject body = new TestObject('body')
+openTab( //import org.openqa.selenium.Keys as Keys
+    ) /*TestObject body = new TestObject('body')
 
 body.addProperty('tag', ConditionType.EQUALS, 'body')
 
@@ -46,11 +46,11 @@ Void openTab() {
 
     WebUI.switchToWindowIndex(currentTab + 1)
 
-    WebUI.navigateToUrl(currentPage)
+    WebUI.navigateToUrl(GlobalVariable.AgentTesting)
 
     WebUI.switchToWindowIndex(currentTab)
 
-    WebUI.navigateToUrl(currentPage)
+    WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
 
     WebUI.switchToWindowIndex(currentTab + 1)
 }
