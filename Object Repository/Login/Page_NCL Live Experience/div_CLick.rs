@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698</name>
+   <name>div_CLick</name>
    <tag></tag>
    <elementGuidId>da77d41a-d0be-4fce-baf0-942658d0bfbe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.q-img__content.absolute-full</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

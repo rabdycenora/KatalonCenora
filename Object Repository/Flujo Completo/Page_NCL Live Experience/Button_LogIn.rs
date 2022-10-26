@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Log In</name>
+   <name>Button_LogIn</name>
    <tag></tag>
-   <elementGuidId>c4039693-6800-4963-be1d-596c83a7f23a</elementGuidId>
+   <elementGuidId>5ea6fe00-4a06-4104-93c2-ad9d94569cbf</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//span[contains(.,'Log In')])[2]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[contains(.,'Log In')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>51a2d173-9d6f-4525-b318-f108dd2962e3</webElementGuid>
+      <webElementGuid>aefd1d89-f303-491f-a674-fd54e525610d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
-      <webElementGuid>a121ebce-9e7b-413b-94d2-38b3f83e4e25</webElementGuid>
+      <webElementGuid>5ca80e1b-385e-4395-ba58-f368493a090a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Log In</value>
-      <webElementGuid>a08109e3-2c4a-480a-9ca7-31f4f42a050a</webElementGuid>
+      <webElementGuid>dbec3297-31a5-42fb-bff5-e6fa481f98cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/form[@class=&quot;q-form&quot;]/div[@class=&quot;q-pt-lg&quot;]/button[@class=&quot;q-btn q-btn-item non-selectable no-outline full-width q-btn--unelevated q-btn--rectangle bg-secondary text-white q-btn--actionable q-focusable q-hoverable q-btn--wrap&quot;]/span[@class=&quot;q-btn__wrapper col row q-anchor--skip&quot;]/span[@class=&quot;q-btn__content text-center col items-center q-anchor--skip justify-center row&quot;]</value>
-      <webElementGuid>5732fef7-50f9-4273-ab06-e9279368ba44</webElementGuid>
+      <webElementGuid>85172ebb-3501-4043-8cfd-c1e6239f174b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/form/div[4]/button/span[2]/span</value>
-      <webElementGuid>d3e31990-a0f2-4283-9136-02f8932e1a16</webElementGuid>
+      <webElementGuid>9f018632-5714-4165-b914-1f03be132293</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::span[3]</value>
-      <webElementGuid>efb977ad-532d-4b36-aede-dd5cc857c63f</webElementGuid>
+      <webElementGuid>4334c54c-0b5a-4a57-a232-7eef49288497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[3]</value>
-      <webElementGuid>ae22115c-09cc-4a35-8bfe-70527233c59d</webElementGuid>
+      <webElementGuid>bab0c054-1e4a-44f4-8927-a29c688524a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Or choose another ID Provider:'])[1]/preceding::span[2]</value>
-      <webElementGuid>64d99629-0265-4cd0-bbcb-71890d0386ce</webElementGuid>
+      <webElementGuid>5e06d2a5-9931-43ce-a978-5a196d7b53ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[2]/span</value>
-      <webElementGuid>130123c9-6e23-4170-bb40-81a2c1c6b4ba</webElementGuid>
+      <webElementGuid>67080866-eaa3-4e24-80d5-95448089af7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Log In' or . = 'Log In')]</value>
-      <webElementGuid>4b074ea0-4a70-400a-b644-7b9205569ae2</webElementGuid>
+      <webElementGuid>b10227c3-2f7d-4383-9900-44c5d0f744a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

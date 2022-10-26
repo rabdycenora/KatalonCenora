@@ -26,45 +26,67 @@ WebUI.maximizeWindow()
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_CLick'))
 
-WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
-    20)
+WebUI.waitForElementPresent(findTestObject('Flujo Completo/Page_NCL Live Experience/input_username'), 20)
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
-    GlobalVariable.User)
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_username'), GlobalVariable.User)
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/span_Log In'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_LogIn'))
 
-WebUI.waitForPageLoad(20)
+WebUI.waitForElementPresent(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), 50)
 
-WebUI.click(findTestObject('pruebas_copy/Page_NCL Live Experience/i_apps'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('pruebas_copy/Page_NCL Live Experience/div_Dashboard'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Select_icon_apps'))
 
-//int currentTab = WebUI.getWindowIndex()
-//WebUI.switchToWindowIndex(currentTab + 1)
-//WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
-//WebUI.switchToWindowIndex(currentTab )
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Select_Dashboard'))
+
 WebUI.switchToWindowIndex(1)
 
 WebUI.navigateToUrl(GlobalVariable.ConsumerTesting)
 
 WebUI.switchToWindowIndex(1)
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/span_Code'))
+
+Code = WebUI.getText(findTestObject('Flujo Completo/Page_NCL Live Experience/span_Code'))
+
+System.out.println('El valor del Code es: ' + Code)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_INVITE'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_InviteByCode'))
+
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Code'), Code)
+
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Customer'), 'Automation')
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Select_CustomerName'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_START'))
+
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Search'), '10-Day Caribbean: Great Stirrup Cay, Dominican Republic & Aruba')
+
+WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'))
 

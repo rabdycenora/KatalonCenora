@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Code</name>
+   <tag></tag>
+   <elementGuidId>2fa48c82-1b31-4cf9-92e9-c88463cc3cee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.access-code-box > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f368baa5-e78c-4f25-8291-94be1b073350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5443</value>
+      <webElementGuid>814db7f6-c8b9-4cf9-9df0-b52f89772b1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width&quot;]/div[@class=&quot;full-height column q-px-lg q-py-xl content-center items-center justify-between bg-gradient text-white&quot;]/div[3]/div[@class=&quot;access-code-box&quot;]/span[1]</value>
+      <webElementGuid>0f6a9b09-ed47-4468-ac9e-3edaad06ea40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Sesion for Code/Page_NCL/iframe</value>
+      <webElementGuid>f850ef50-f6e9-4c59-a44c-2d6c4b232a0a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/div[3]/div/span</value>
+      <webElementGuid>a99128cf-c582-4fd4-8019-9161ec04de6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

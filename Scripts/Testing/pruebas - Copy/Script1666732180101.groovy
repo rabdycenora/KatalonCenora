@@ -26,31 +26,31 @@ WebUI.maximizeWindow()
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_LIVE EXPERIENCE 2.0 - LOGIN_q-img__cont_272698'))
+WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_CLick'))
 
-WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_username'), 
     20)
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_LIVE EXPERIENCE 2.0 - LOGIN_username'), 
+WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_username'), 
     GlobalVariable.User)
 
 WebUI.setText(findTestObject('Object Repository/Login/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
 
-WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/span_Log In'))
+WebUI.click(findTestObject('Object Repository/Login/Page_NCL Live Experience/span_LogIn'))
 
 WebUI.waitForPageLoad(20)
 
