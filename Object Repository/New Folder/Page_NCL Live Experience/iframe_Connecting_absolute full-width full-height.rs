@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe_Connecting_absolute full-width full-height</name>
+   <tag></tag>
+   <elementGuidId>df4268eb-033f-460c-81a0-aae7f1b372d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>iframe.absolute.full-width.full-height</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div[2]/aside/div/div/div/div/div/div/div[3]/div/div/div/div[3]/div/iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+      <webElementGuid>faed7015-0087-4887-bade-ecb7121aa469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ncl.testing.consumer.cenora.io/preview?sid=ncl%2Fsid-l9wzjd2n-2atnkfzteui&amp;agent=true</value>
+      <webElementGuid>28b1cf8a-8a70-427b-90dd-4d4f073d5f96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>absolute full-width full-height</value>
+      <webElementGuid>8173e6c0-46ba-40f9-a84f-0bf686f09c23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-drawer-container&quot;]/aside[@class=&quot;q-drawer q-drawer--right q-drawer--standard fixed&quot;]/div[@class=&quot;q-drawer__content fit scroll&quot;]/div[1]/div[@class=&quot;q-tab-panels q-panel-parent&quot;]/div[@class=&quot;q-panel scroll&quot;]/div[@class=&quot;q-tab-panel q-pa-none&quot;]/div[1]/div[@class=&quot;column justify-evenly items-center content-center overflow-hidden bg-white&quot;]/div[@class=&quot;bg-white&quot;]/div[1]/div[1]/div[3]/div[@class=&quot;relative-position full-width full-height&quot;]/iframe[@class=&quot;absolute full-width full-height&quot;]</value>
+      <webElementGuid>423fe629-f425-4190-9e88-56e01df23803</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div[2]/aside/div/div/div/div/div/div/div[3]/div/div/div/div[3]/div/iframe</value>
+      <webElementGuid>e520db8c-0cdd-40c1-85f5-80756ce86650</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//iframe</value>
+      <webElementGuid>61dec2b9-4973-4bb2-b39a-4ec98c1a6db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//iframe[@src = 'https://ncl.testing.consumer.cenora.io/preview?sid=ncl%2Fsid-l9wzjd2n-2atnkfzteui&amp;agent=true']</value>
+      <webElementGuid>334c5948-659a-4f0e-a525-3a87dae61249</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

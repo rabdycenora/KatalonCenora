@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='Search']</value>
+         <value>//input[contains(@placeholder,'Search')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2797df89-f964-4e1e-b148-0a8dfda13c36</webElementGuid>
+      <webElementGuid>a41bd31d-8f85-4ec3-a00e-7f28bf36f922</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-img__content absolute-full</value>
-      <webElementGuid>07154962-23f0-4e62-8ee9-00f016cc561d</webElementGuid>
+      <webElementGuid>ac9ee9f0-fd78-4c6d-b50a-2a166e77a603</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
-      <webElementGuid>de5640aa-7cf0-443b-bc87-2124b07334ff</webElementGuid>
+      <webElementGuid>a33dc6bb-8de4-48f8-ae03-1701d5bd1a66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Flujo Completo/Page_NCL Live Experience/iframe_Search</value>
+      <webElementGuid>ec4b9587-69a1-4b8d-8862-5a860e5516d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
-      <webElementGuid>c00ee1f5-26cc-4cb3-b093-978854ef2223</webElementGuid>
+      <webElementGuid>86cb623a-392b-4169-a891-c694997893ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]</value>
-      <webElementGuid>44bbcd7b-ff6a-4851-9adf-3f1dcbc44a7e</webElementGuid>
+      <webElementGuid>b878a2be-e020-4f94-b92d-e02f1f534b6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

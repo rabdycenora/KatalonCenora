@@ -82,11 +82,30 @@ WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Cust
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Select_CustomerName'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_START'))
 
-//WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Search'), '10-Day Caribbean: Great Stirrup Cay, Dominican Republic & Aruba')
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Search'), '10-day Caribbean: Great Stirrup Cay, Dominican Republic & Aruba')
 
-WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'))
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_StandBy'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_DisablerUser'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_EnabledPointer'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_DisablerUser'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_EnabledPointer'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_StandBy'))
+
+WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_ENDSession'))
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Corfirm_Button_ENDSession'))
+
+WebUI.closeBrowser()
 

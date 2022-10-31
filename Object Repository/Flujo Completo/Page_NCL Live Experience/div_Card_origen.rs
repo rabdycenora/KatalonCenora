@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class,'dcard-action-overlay')]</value>
+         <value>//*[@id=&quot;q-app&quot;]/div/div[2]/main/div[2]/div/div[1]/div/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ff5700aa-3539-4592-b282-7ae4329e41f7</webElementGuid>
+      <webElementGuid>be1484ff-fa40-4d20-962d-3974322fd78b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-img__content absolute-full</value>
-      <webElementGuid>87de19e7-6f18-49dd-9249-5d4be9a01d12</webElementGuid>
+      <webElementGuid>16c7e404-c7b9-43f3-b73d-18fac4e34be1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
-      <webElementGuid>0c969890-5bc3-4a79-859a-18aacd294221</webElementGuid>
+      <webElementGuid>69d8d03e-575d-43f3-887f-1a63717e0817</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Flujo Completo/Page_NCL Live Experience/iframe1</value>
+      <webElementGuid>d3150733-8e20-44e8-9636-8f741f73dace</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
-      <webElementGuid>9f1f9f28-e0f8-4673-be2a-7a37ceaf0d9c</webElementGuid>
+      <webElementGuid>8dcdeda1-a6bd-4309-b9dd-a99d29c295e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]</value>
-      <webElementGuid>6fae9a76-9109-492f-bb71-412e36c43ce6</webElementGuid>
+      <webElementGuid>6afc4cad-eba9-4411-949b-4667c8fda8f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
