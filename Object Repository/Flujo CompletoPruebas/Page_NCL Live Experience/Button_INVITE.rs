@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_INVITE</name>
+   <tag></tag>
+   <elementGuidId>a2bf59ff-eca1-4122-b670-5fd0d54703b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#invite > span.q-btn__wrapper.col.row.q-anchor--skip > span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='invite']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1c7e76a3-d10f-4bb0-8e75-4c2a9c6a3164</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
+      <webElementGuid>4d80141b-c8b5-4401-adaf-cc948abb2110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add
+        Invite
+      </value>
+      <webElementGuid>8ba08b4d-9988-453e-9f4c-4d2c3293a4a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;invite&quot;)/span[@class=&quot;q-btn__wrapper col row q-anchor--skip&quot;]/span[@class=&quot;q-btn__content text-center col items-center q-anchor--skip justify-center row&quot;]</value>
+      <webElementGuid>d27020a5-c590-42a7-b68d-0b8eefa7adb9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='invite']/span[2]/span</value>
+      <webElementGuid>bc017fb0-1107-4ea0-9cd2-8a3656dc76ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rabdy Gutierrez'])[1]/following::span[3]</value>
+      <webElementGuid>611d0322-1ee8-47d8-a60d-c2e00e992689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NORWEGIAN VIVA'])[1]/following::span[10]</value>
+      <webElementGuid>674df15b-31d3-4eaa-ab7c-bf5100907536</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cruises'])[1]/preceding::span[1]</value>
+      <webElementGuid>1dadca4b-d1f7-413d-b3f5-b9822fb64865</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite Customer'])[1]/preceding::span[1]</value>
+      <webElementGuid>b7dd1c4f-2381-46ce-91da-2720002dc871</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invite']/parent::*</value>
+      <webElementGuid>c28fd043-2f41-44ed-b673-ada6a2073318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/span[2]/span</value>
+      <webElementGuid>e79dd620-6920-4538-b7fa-7c82dc2a54cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'add
+        Invite
+      ' or . = 'add
+        Invite
+      ')]</value>
+      <webElementGuid>cf16fdad-20af-4ff6-8a08-be2193f11a86</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -25,9 +25,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ncl.testing.agent.cenora.io/')
+WebUI.navigateToUrl('https://jqueryui.com/droppable/')
 
-WebUI.click(findTestObject('Object Repository/New Folder/Page_NCL Live Experience/div_north_eastEnter Sectionmore_horiz'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/New Folder/Page_NCL Live Experience/div_Ship_q-carousel__slide q-pa-none'))
+WebUI.delay(5)
+
+WebUI.dragAndDropByOffset(findTestObject('Page_Droppable  jQuery UI/div_Drag me to my target'), 800, 0)
+
+//WebUI.dragAndDropToObject(findTestObject('Page_Droppable  jQuery UI/div_Drag me to my target'), findTestObject('New Folder/div_droppable'), 
+  //  FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -76,7 +76,7 @@ WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_INVIT
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_InviteByCode'))
 
-WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Code'), Code)
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Code'), Code, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Customer'), 'Automation')
 
@@ -86,7 +86,8 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_START'))
 
-WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Search'), '10-day Caribbean: Great Stirrup Cay, Dominican Republic & Aruba')
+WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Search'), '10-day Caribbean: Great Stirrup Cay, Dominican Republic & Aruba', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_StandBy'))
 
@@ -99,10 +100,28 @@ WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_Disab
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_EnabledPointer'))
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_StandBy'))
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(0)
 
 WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(3)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.dragAndDropByOffset(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), 400, 200)
+
+WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'))
+
+//WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), 
+//    FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_ENDSession'))
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Corfirm_Button_ENDSession'))

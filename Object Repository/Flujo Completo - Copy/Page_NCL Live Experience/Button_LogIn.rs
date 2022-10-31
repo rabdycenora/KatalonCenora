@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_LogIn</name>
+   <tag></tag>
+   <elementGuidId>7f94e6eb-4f1b-4fa9-bc70-69df3fc487df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[contains(.,'Log In')])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e001793e-7135-4716-9a9b-c34c3647b669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
+      <webElementGuid>f9e41c4c-4958-4579-b509-217c1089e401</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log In</value>
+      <webElementGuid>300134ad-2204-4dac-8077-b1dbdea297e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/form[@class=&quot;q-form&quot;]/div[@class=&quot;q-pt-lg&quot;]/button[@class=&quot;q-btn q-btn-item non-selectable no-outline full-width q-btn--unelevated q-btn--rectangle bg-secondary text-white q-btn--actionable q-focusable q-hoverable q-btn--wrap&quot;]/span[@class=&quot;q-btn__wrapper col row q-anchor--skip&quot;]/span[@class=&quot;q-btn__content text-center col items-center q-anchor--skip justify-center row&quot;]</value>
+      <webElementGuid>231ee745-4fac-490f-ac34-84d78ccf45e9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/form/div[4]/button/span[2]/span</value>
+      <webElementGuid>1bc8d8ac-015c-470c-8b55-010158a41a38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::span[3]</value>
+      <webElementGuid>36aff324-d168-4067-ac29-a49440f65d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[3]</value>
+      <webElementGuid>d795d38f-00aa-4982-b6a3-61ed79424efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Or choose another ID Provider:'])[1]/preceding::span[2]</value>
+      <webElementGuid>875f1753-9c39-4993-9c79-4d2030a40c60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span</value>
+      <webElementGuid>57db8ccb-00ee-494c-8ded-dc20ec617617</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log In' or . = 'Log In')]</value>
+      <webElementGuid>4e53cc3a-603b-4ab6-8afb-930f4f4aa270</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

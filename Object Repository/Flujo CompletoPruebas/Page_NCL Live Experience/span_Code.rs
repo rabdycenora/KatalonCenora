@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_droppable</name>
+   <name>span_Code</name>
    <tag></tag>
-   <elementGuidId>6100adf2-cb4d-4ac7-af70-cfe15494aaf2</elementGuidId>
+   <elementGuidId>d09a0121-df75-44e6-acb5-4f495629b59a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(.,'Drop here')]</value>
+         <value>//div[@id='q-app']/div/div/div[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>67c466cc-0e2a-4831-b6fa-a9c91945cd79</webElementGuid>
+      <webElementGuid>4b610795-af72-49a0-a152-98697ec9e137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5443</value>
-      <webElementGuid>7d7d724e-3f59-4549-833a-0171560be44e</webElementGuid>
+      <webElementGuid>3b1b0407-4c44-4f7d-9661-8dfac2026a0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width&quot;]/div[@class=&quot;full-height column q-px-lg q-py-xl content-center items-center justify-between bg-gradient text-white&quot;]/div[3]/div[@class=&quot;access-code-box&quot;]/span[1]</value>
-      <webElementGuid>50eb60bb-0c9c-40b6-8929-ad29b6569cab</webElementGuid>
+      <webElementGuid>aefe6b27-f8fe-459a-8fd1-feed1ee1a577</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Droppable  jQuery UI/iframe_Visual feedback_demo-frame</value>
-      <webElementGuid>ce775f37-d8cb-49f1-a5a0-ff3d37070e55</webElementGuid>
+      <value>Object Repository/Sesion for Code/Page_NCL/iframe</value>
+      <webElementGuid>df4831eb-8a58-402d-9ddf-920b3488a7cf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div[3]/div/span</value>
-      <webElementGuid>b10e4ea5-9505-4417-8bb1-9005f4e22398</webElementGuid>
+      <webElementGuid>c74acc15-a60d-4b85-a7b0-91b64f426acb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_START</name>
+   <tag></tag>
+   <elementGuidId>49087251-ccce-44f3-beb9-a05dcfd1936d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.q-btn.q-btn-item.non-selectable.no-outline.full-width.q-btn--unelevated.q-btn--rectangle.bg-secondary.text-white.q-btn--actionable.q-focusable.q-hoverable.q-btn--wrap > span.q-btn__wrapper.col.row.q-anchor--skip > span.q-btn__content.text-center.col.items-center.q-anchor--skip.justify-center.row</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='q-app']/div/div[2]/aside/div/div/div/div/div/div/div[2]/div[3]/button/span[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a9a4b53a-ac99-4c12-9030-a0066aaff97d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-btn__content text-center col items-center q-anchor--skip justify-center row</value>
+      <webElementGuid>2a72bb16-7443-42a7-a757-eadcb965ce4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>START</value>
+      <webElementGuid>145cd31b-d256-40d4-8f88-e1f458f58e91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;q-layout q-layout--standard&quot;]/div[@class=&quot;q-drawer-container&quot;]/aside[@class=&quot;q-drawer q-drawer--right q-drawer--standard fixed&quot;]/div[@class=&quot;q-drawer__content fit scroll&quot;]/div[1]/div[@class=&quot;q-tab-panels q-panel-parent&quot;]/div[@class=&quot;q-panel scroll&quot;]/div[@class=&quot;q-tab-panel q-pa-none&quot;]/div[@class=&quot;overflow-hidden text-grey-8&quot;]/div[@class=&quot;column justify-start q-gutter-y-xl q-pa-lg&quot;]/div[3]/button[@class=&quot;q-btn q-btn-item non-selectable no-outline full-width q-btn--unelevated q-btn--rectangle bg-secondary text-white q-btn--actionable q-focusable q-hoverable q-btn--wrap&quot;]/span[@class=&quot;q-btn__wrapper col row q-anchor--skip&quot;]/span[@class=&quot;q-btn__content text-center col items-center q-anchor--skip justify-center row&quot;]</value>
+      <webElementGuid>79bca7ed-2570-466d-8f53-7c14b1dea2b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div[2]/aside/div/div/div/div/div/div/div[2]/div[3]/button/span[2]/span</value>
+      <webElementGuid>d1b3402e-25de-47df-b8fb-19fea8502eb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Name'])[1]/following::span[3]</value>
+      <webElementGuid>587145be-cc04-4dd8-bd5a-3982b9283402</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tag'])[1]/following::span[4]</value>
+      <webElementGuid>c497508a-d6e7-4437-bdd4-368b728fdc38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose an extra-functionality'])[1]/preceding::span[11]</value>
+      <webElementGuid>86dfc160-0aa0-48a3-b884-126eeab7eb54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span[2]/span</value>
+      <webElementGuid>ce264891-8ace-41d0-984b-17a44569f8db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'START' or . = 'START')]</value>
+      <webElementGuid>e148d357-b797-4e75-b3ec-ad2854701e51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

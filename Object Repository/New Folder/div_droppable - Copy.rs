@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_droppable</name>
+   <name>div_droppable - Copy</name>
    <tag></tag>
-   <elementGuidId>6100adf2-cb4d-4ac7-af70-cfe15494aaf2</elementGuidId>
+   <elementGuidId>6d9cc85a-c105-4c84-80e9-f3a9b2b6e9ba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>67c466cc-0e2a-4831-b6fa-a9c91945cd79</webElementGuid>
+      <webElementGuid>f3cadc46-982c-412c-8c1e-152321208318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5443</value>
-      <webElementGuid>7d7d724e-3f59-4549-833a-0171560be44e</webElementGuid>
+      <webElementGuid>4e8d9a57-129c-4a0f-813d-8fd07d9bae27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width&quot;]/div[@class=&quot;full-height column q-px-lg q-py-xl content-center items-center justify-between bg-gradient text-white&quot;]/div[3]/div[@class=&quot;access-code-box&quot;]/span[1]</value>
-      <webElementGuid>50eb60bb-0c9c-40b6-8929-ad29b6569cab</webElementGuid>
+      <webElementGuid>82499f57-efb8-4989-9799-8a53379577e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Droppable  jQuery UI/iframe_Visual feedback_demo-frame</value>
-      <webElementGuid>ce775f37-d8cb-49f1-a5a0-ff3d37070e55</webElementGuid>
+      <webElementGuid>83948eb7-8949-4d55-8ac4-3892e756031c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div[3]/div/span</value>
-      <webElementGuid>b10e4ea5-9505-4417-8bb1-9005f4e22398</webElementGuid>
+      <webElementGuid>5403a8df-9059-4a6f-b11a-a8a0c279337c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

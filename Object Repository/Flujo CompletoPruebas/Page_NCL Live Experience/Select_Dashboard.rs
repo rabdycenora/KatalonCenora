@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Select_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>d85fa446-78aa-49b0-9fc5-9e7801beb204</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.q-item.q-item-type.row.no-wrap.q-item--clickable.q-link.cursor-pointer.q-focusable.q-hoverable > div.q-item__section.column.q-item__section--main.justify-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(.,'Dashboard')])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d542813-c2f6-44c0-9074-9140ea2eaac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-item__section column q-item__section--main justify-center</value>
+      <webElementGuid>257c3643-3b43-41ba-8c01-9a55185b5b9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dashboard</value>
+      <webElementGuid>b105bb64-992f-4e6e-bb35-aa1995e27e74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;desktop no-touch body--light&quot;]/div[@class=&quot;q-menu q-position-engine scroll&quot;]/div[@class=&quot;text-grey-8 q-list&quot;]/div[@class=&quot;q-item q-item-type row no-wrap q-item--clickable q-link cursor-pointer q-focusable q-hoverable&quot;]/div[@class=&quot;q-item__section column q-item__section--main justify-center&quot;]</value>
+      <webElementGuid>bf4ecbb6-eaa9-4a05-8b35-3796f515c89b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecting an icon from this panel’s toolbar'])[1]/following::div[18]</value>
+      <webElementGuid>b9c04349-dd4c-4d03-9e48-e75c5edc8835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose an extra-functionality'])[1]/following::div[18]</value>
+      <webElementGuid>9464c711-d34f-4112-b09a-1792bfb47410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Links'])[1]/preceding::div[3]</value>
+      <webElementGuid>f1ddcec3-208e-456a-a4bc-78be3e588dfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dashboard']/parent::*</value>
+      <webElementGuid>224192b9-0657-404c-974a-ae8fd41ee642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[3]</value>
+      <webElementGuid>6ca900c4-edde-4e16-bb57-79ba6f021fb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Dashboard' or . = 'Dashboard')]</value>
+      <webElementGuid>54b26e40-b5db-4e2f-99ea-d6a3a8ef7fa3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
