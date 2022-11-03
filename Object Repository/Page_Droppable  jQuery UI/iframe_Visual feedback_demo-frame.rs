@@ -6,12 +6,12 @@
    <elementGuidId>c955a7e8-a333-4459-af40-94ce04537597</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>iframe.demo-frame</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[2]/div/div[1]/iframe</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='content']/iframe</value>
+         <key>CSS</key>
+         <value>iframe.demo-frame</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>bbff1914-ca19-4d36-b7d2-2a5272c6bfad</webElementGuid>
+      <webElementGuid>39d35908-c715-4776-a0fb-00c34bc00ed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/resources/demos/droppable/default.html</value>
-      <webElementGuid>4f8e7bd5-681b-43a7-a94e-6c233d69d424</webElementGuid>
+      <webElementGuid>80fc3a0e-2f92-4be5-bb5a-62186fed972f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>demo-frame</value>
-      <webElementGuid>ea3b5944-c1b3-474e-a4f0-0fe006a591ab</webElementGuid>
+      <webElementGuid>ccdad90a-a343-42f0-aa76-def4389b94fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/iframe[@class=&quot;demo-frame&quot;]</value>
-      <webElementGuid>d3fd9dd9-0c7d-4135-ad43-a515db932ee3</webElementGuid>
+      <webElementGuid>039c39b8-2f8e-418f-80df-2d6a02b775ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content']/iframe</value>
-      <webElementGuid>236efc67-cf38-45d1-9a7f-a3a96cf3e9b9</webElementGuid>
+      <webElementGuid>4f09201f-ea88-475d-9175-77105a23242f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>2aed2152-f4a7-4d30-8d19-fc99a9fc96c5</webElementGuid>
+      <webElementGuid>a74bafae-3645-4a39-bb57-eb003fd98515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@src = '/resources/demos/droppable/default.html']</value>
-      <webElementGuid>12072bc5-2932-4956-a2e8-fd86d8473a57</webElementGuid>
+      <webElementGuid>c8e4edb9-f4ea-41da-aaea-f8ac5ec566cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

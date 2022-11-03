@@ -23,6 +23,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import org.openqa.selenium.Keys as Keys
 
+
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.interactions.Actions
+import io.appium.java_client.AppiumDriver
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://jqueryui.com/droppable/')
@@ -31,8 +38,12 @@ WebUI.maximizeWindow()
 
 WebUI.delay(5)
 
-WebUI.dragAndDropByOffset(findTestObject('Page_Droppable  jQuery UI/div_Drag me to my target'), 800, 0)
+//WebUI.dragAndDropByOffset(findTestObject('Page_Droppable  jQuery UI/div_Drag origen'), 200, 100)
 
-//WebUI.dragAndDropToObject(findTestObject('Page_Droppable  jQuery UI/div_Drag me to my target'), findTestObject('New Folder/div_droppable'), 
-  //  FailureHandling.CONTINUE_ON_FAILURE)
+Actions builder = new Actions(DriverFactory.getWebDriver());
 
+WebElement sourceElement = WebUiCommonHelper.findWebElement(findTestObject('Page_Droppable  jQuery UI/div_Drag origen'), 20)
+WebElement destElement = WebUiCommonHelper.findWebElement(findTestObject('Page_Droppable  jQuery UI/div_Drag destino'), 20)
+builder.clickAndHold(sourceElement)
+WebUI.delay(5)
+builder.moveToElement(destElement).release().build().perform()

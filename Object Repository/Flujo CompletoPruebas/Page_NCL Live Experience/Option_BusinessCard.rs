@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Option_BusinessCard</name>
+   <tag></tag>
+   <elementGuidId>926beed5-6ffc-439d-ac1c-52aa1f37ad9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//i[@role='img'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.q-img__content.absolute-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d8126f35-1d05-4a6b-aeca-60cdeeaa99fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-img__content absolute-full</value>
+      <webElementGuid>a369d8d2-0128-42c9-9798-93d1134a7545</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
+      <webElementGuid>48b15334-3277-4b12-8523-647726a56ab4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
+      <webElementGuid>894d74fb-c120-4dd5-9d20-3dfe87f27eb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]</value>
+      <webElementGuid>2ab72fbb-e791-4a7c-a57d-3d33afceccb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

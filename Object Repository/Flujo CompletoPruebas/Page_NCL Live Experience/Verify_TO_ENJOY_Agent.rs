@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_TO_ENJOY_Agent</name>
+   <tag></tag>
+   <elementGuidId>c98c9009-5ad6-4f2e-a85b-ed73a587f437</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='q-px-lg text-center'][contains(.,'To Enjoy a new visual journey')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.q-img__content.absolute-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17fb4ab8-ddac-46c6-bad8-1f07d31e9cda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-img__content absolute-full</value>
+      <webElementGuid>d0b9d865-5725-4f71-a646-f759db49ccc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
+      <webElementGuid>22404993-bbe6-425e-900c-473c78e6cd6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Flujo CompletoPruebas/Page_NCL Live Experience/iframe12133</value>
+      <webElementGuid>dfb00f29-ea54-4336-8622-2ce4f938dd04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
+      <webElementGuid>8bd507a9-3cbe-4d0e-ae13-f8b055f88e89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]</value>
+      <webElementGuid>b848773f-dae5-4f03-a70f-b31a655ff76a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -18,7 +18,12 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.interactions.Actions as Actions
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.interactions.Actions
+import io.appium.java_client.AppiumDriver
 
 WebUI.openBrowser('')
 
@@ -91,61 +96,27 @@ WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Butto
 WebUI.setText(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/input_Search'), '10-day Caribbean: Great Stirrup Cay, Dominican Republic & Aruba', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_StandBy'))
-
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_DisablerUser'))
-
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_EnabledPointer'))
-
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_DisablerUser'))
-
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_EnabledPointer'))
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_GET_READY_Agent'))
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_TO_ENJOY_Agent'))
-
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_StandBy'))
-
 WebUI.switchToWindowIndex(1)
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_Welcome_Consumer'))
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_GET_READY_Consumer'))
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_TO_ENJOY_Consumer'))
-
-WebUI.takeScreenshot()
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Option_BusinessCard'))
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_NAME_BusinessCard'))
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_REPRESENTAT_BusinessCard'))
-
-WebUI.verifyElementVisible(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/Verify_EMAIL_BusinessCard'))
-
-WebUI.takeScreenshot()
-
-WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
 
 //WebUI.dragAndDropToObject(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/div_Card_origen - Copy (1)'), findTestObject(
 //      'Flujo CompletoPruebas/Page_NCL Live Experience/iframe12133'), FailureHandling.STOP_ON_FAILURE)
-WebUI.dragAndDropByOffset(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/div_Card_origen - Copy (1)'), 400, 
-    200)
-WebUI.switchToWindowIndex(0)
+//WebUI.dragAndDropByOffset(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/div_Card_origen - Copy (1)'), 400, 
+  //  200)
+
+
+Actions actions = new Actions(DriverFactory.getWebDriver());
+WebElement Element = WebUiCommonHelper.findWebElement(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/div_Card_origen'), 20)
+actions.clickAndHold(element).perform();
+actions.release(element).perform();
+	
 
 WebUI.switchToWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.click(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/div_Card_destin - Copy (1)'))
+WebUI.sendKeys(findTestObject('Flujo CompletoPruebas/Page_NCL Live Experience/div_Card_destin - Copy (1)'), Keys.chord(Keys.ESCAPE))
 
 WebUI.delay(10)
 

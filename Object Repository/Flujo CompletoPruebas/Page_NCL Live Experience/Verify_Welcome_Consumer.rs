@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify_Welcome_Consumer</name>
+   <tag></tag>
+   <elementGuidId>57f7f192-81a1-42f5-b488-8f0f13ed35fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(.,'Welcome Automation!')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.q-img__content.absolute-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8ca527e4-2c1a-48bb-8419-ed5412c28271</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q-img__content absolute-full</value>
+      <webElementGuid>1e62ad3f-a708-42d1-8976-767561d9e6e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
+      <webElementGuid>54ba70b8-08b8-4686-87ab-284acefe3b3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Flujo CompletoPruebas/Page_NCL Live Experience/iframeConsumer</value>
+      <webElementGuid>9f82b3ff-b110-4cd9-a90c-d60840554d19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
+      <webElementGuid>be03316d-605b-480a-80ea-c32a2445c330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]</value>
+      <webElementGuid>3d98d92b-2731-4822-b498-5bda3d91ff8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

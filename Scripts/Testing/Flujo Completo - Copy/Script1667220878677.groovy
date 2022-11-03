@@ -116,7 +116,8 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.dragAndDropByOffset(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), 400, 200)
+WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo - Copy/Page_NCL Live Experience/div_Card_destin'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'))
 
