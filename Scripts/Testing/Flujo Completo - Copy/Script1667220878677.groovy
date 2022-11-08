@@ -107,8 +107,7 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.dragAndDropByOffset(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), 400, 100)
 
 WebUI.switchToWindowIndex(1)
 
@@ -116,9 +115,8 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo - Copy/Page_NCL Live Experience/div_Card_destin'), 
-    FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo - Copy/Page_NCL Live Experience/div_Card_destin'), 
+// FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'))
 
 //WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), 
