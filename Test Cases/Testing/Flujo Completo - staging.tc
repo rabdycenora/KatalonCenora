@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Flujo Completo - staging</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed11cb9f-0609-48ce-934a-b3c8e19fe314</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5bb0c0b2-8485-421f-b4ec-09e0c14f7aad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f0dac6a-ab09-493a-b877-7733de7cbb43</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>358ac4eb-c2fc-4c57-a43c-c36d25ccc680</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'9-Day Caribbean Round-Trip Miami: Dominican Republic &amp; St. Thomas'</defaultValue>
+      <description></description>
+      <id>5bb0c0b2-8485-421f-b4ec-09e0c14f7aad</id>
+      <masked>false</masked>
+      <name>Search1</name>
+   </variable>
+   <variable>
+      <defaultValue>'7-Day Hawaii Inter-island From Honolulu'</defaultValue>
+      <description></description>
+      <id>3f0dac6a-ab09-493a-b877-7733de7cbb43</id>
+      <masked>false</masked>
+      <name>Search2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>358ac4eb-c2fc-4c57-a43c-c36d25ccc680</id>
+      <masked>false</masked>
+      <name>Search3</name>
+   </variable>
+</TestCaseEntity>

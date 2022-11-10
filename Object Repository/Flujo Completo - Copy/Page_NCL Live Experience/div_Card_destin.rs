@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//div[contains(.,'GET READYTo Enjoy a new visual journey')])[4]</value>
+         <value>//*[@id=&quot;dropOverlay&quot;]/div/span/text()[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>50f9a483-e410-4fd4-8c7a-28e7b0a5ddaa</webElementGuid>
+      <webElementGuid>e6fe592b-71bb-41d3-ad59-4ee4d32f0410</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-img__content absolute-full</value>
-      <webElementGuid>da9bee9f-07cc-4e12-b806-36378a775785</webElementGuid>
+      <webElementGuid>8138289e-d4ce-4ba7-977a-c74f25367e3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
-      <webElementGuid>836c2c48-1d5a-4183-b607-b120e1b063bc</webElementGuid>
+      <webElementGuid>f0cca5d2-5a88-4f30-b69f-1890c3ecc0d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Flujo Completo/Page_NCL Live Experience/iframe3</value>
-      <webElementGuid>63fe1b27-b4e3-4dae-a768-1e3e3653b85c</webElementGuid>
+      <webElementGuid>b98a03c9-48ec-4298-a08e-f10111996003</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
-      <webElementGuid>ee6bdc34-dbef-468f-92f1-7c4ab21aff9b</webElementGuid>
+      <webElementGuid>60b778f8-f422-40c9-a848-de5d6ab65b1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]</value>
-      <webElementGuid>f48b75f2-9796-4fe7-b9fc-f238448e49c8</webElementGuid>
+      <webElementGuid>ecee90e3-712b-46eb-9a11-8c276d80345b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
