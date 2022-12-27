@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OceaniaTesting</name>
+   <name>Oceania Staging</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>594258b1-0835-4e52-a614-d0d3224a7116</testCaseGuid>
+   <testCaseGuid>af64fe19-9a4e-4e61-bf17-057fa69c8e49</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>79518e68-8b22-43bf-aeb8-a4660bb86476</variableId>
+      <variableId>44837b44-9ba8-4296-9f72-afabdf8e706e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</variableId>
+      <variableId>e7736723-2c8f-4c9f-b4d7-f3c925dcf702</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4c8414e5-7a25-4f6f-b308-cddd2e513ace</variableId>
+      <variableId>60d03f8e-030e-4790-869a-8e651917a4f4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'12-day Island Jubilee: Bridgetown To Miami'</defaultValue>
       <description></description>
-      <id>79518e68-8b22-43bf-aeb8-a4660bb86476</id>
+      <id>44837b44-9ba8-4296-9f72-afabdf8e706e</id>
       <masked>false</masked>
       <name>Search1</name>
    </variable>
    <variable>
       <defaultValue>'14-day Far East Interlude: Mumbai To Bangkok'</defaultValue>
       <description></description>
-      <id>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</id>
+      <id>e7736723-2c8f-4c9f-b4d7-f3c925dcf702</id>
       <masked>false</masked>
       <name>Search2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4c8414e5-7a25-4f6f-b308-cddd2e513ace</id>
+      <id>60d03f8e-030e-4790-869a-8e651917a4f4</id>
       <masked>false</masked>
       <name>Search3</name>
    </variable>

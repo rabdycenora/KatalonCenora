@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OceaniaTesting</name>
+   <name>Regent Staging</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>594258b1-0835-4e52-a614-d0d3224a7116</testCaseGuid>
+   <testCaseGuid>08d3e3d9-627c-4e78-a79b-4a10366f55f2</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>79518e68-8b22-43bf-aeb8-a4660bb86476</variableId>
+      <variableId>3278b2ae-7cfa-4aae-8dfd-d15ff0c1f465</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</variableId>
+      <variableId>e41e06d8-0d1b-450b-80bb-c255113f15af</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4c8414e5-7a25-4f6f-b308-cddd2e513ace</variableId>
+      <variableId>454f77d5-7218-4e13-89a5-0d4450e6c0c7</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'12-day Island Jubilee: Bridgetown To Miami'</defaultValue>
+      <defaultValue>'143-days Navigate The World: From Miami, Florida To Barcelona, Spain'</defaultValue>
       <description></description>
-      <id>79518e68-8b22-43bf-aeb8-a4660bb86476</id>
+      <id>3278b2ae-7cfa-4aae-8dfd-d15ff0c1f465</id>
       <masked>false</masked>
       <name>Search1</name>
    </variable>
    <variable>
-      <defaultValue>'14-day Far East Interlude: Mumbai To Bangkok'</defaultValue>
+      <defaultValue>'14-days Lord Of The Fjords: From Sydney, Australia To Auckland, New Zealand'</defaultValue>
       <description></description>
-      <id>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</id>
+      <id>e41e06d8-0d1b-450b-80bb-c255113f15af</id>
       <masked>false</masked>
       <name>Search2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4c8414e5-7a25-4f6f-b308-cddd2e513ace</id>
+      <id>454f77d5-7218-4e13-89a5-0d4450e6c0c7</id>
       <masked>false</masked>
       <name>Search3</name>
    </variable>

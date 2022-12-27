@@ -20,7 +20,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.OceaniaTesting)
+WebUI.navigateToUrl(GlobalVariable.NCLTesting)
 
 WebUI.maximizeWindow()
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_CLick'))
 
 WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_username'), 20)
 
-WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_username'), GlobalVariable.UserOceania)
+WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_username'), GlobalVariable.UserNCL)
 
 WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
 
@@ -60,7 +60,7 @@ WebUI.click(findTestObject('Agent/Select_Dashboard'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.navigateToUrl(GlobalVariable.OceaniaConTesting)
+WebUI.navigateToUrl(GlobalVariable.NCLConTesting)
 
 WebUI.switchToWindowIndex(1)
 

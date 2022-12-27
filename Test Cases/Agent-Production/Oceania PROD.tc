@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OceaniaTesting</name>
+   <name>Oceania PROD</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>594258b1-0835-4e52-a614-d0d3224a7116</testCaseGuid>
+   <testCaseGuid>effe90b4-a82a-40ac-ae5b-1d877c64417a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>79518e68-8b22-43bf-aeb8-a4660bb86476</variableId>
+      <variableId>d70ae585-5d4f-40dc-b10b-9a2c86d46b22</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</variableId>
+      <variableId>01a77d5f-99bf-4872-9113-21ad5c5ee5b5</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4c8414e5-7a25-4f6f-b308-cddd2e513ace</variableId>
+      <variableId>64a59eba-c373-467a-92da-238c019db1dc</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'12-day Island Jubilee: Bridgetown To Miami'</defaultValue>
       <description></description>
-      <id>79518e68-8b22-43bf-aeb8-a4660bb86476</id>
+      <id>d70ae585-5d4f-40dc-b10b-9a2c86d46b22</id>
       <masked>false</masked>
       <name>Search1</name>
    </variable>
    <variable>
       <defaultValue>'14-day Far East Interlude: Mumbai To Bangkok'</defaultValue>
       <description></description>
-      <id>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</id>
+      <id>01a77d5f-99bf-4872-9113-21ad5c5ee5b5</id>
       <masked>false</masked>
       <name>Search2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4c8414e5-7a25-4f6f-b308-cddd2e513ace</id>
+      <id>64a59eba-c373-467a-92da-238c019db1dc</id>
       <masked>false</masked>
       <name>Search3</name>
    </variable>

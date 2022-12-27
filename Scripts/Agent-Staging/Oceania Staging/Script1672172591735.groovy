@@ -20,7 +20,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.OceaniaTesting)
+WebUI.navigateToUrl(GlobalVariable.OceaniaStaging)
 
 WebUI.maximizeWindow()
 
@@ -60,7 +60,7 @@ WebUI.click(findTestObject('Agent/Select_Dashboard'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.navigateToUrl(GlobalVariable.OceaniaConTesting)
+WebUI.navigateToUrl(GlobalVariable.OceaniaConStaging)
 
 WebUI.switchToWindowIndex(1)
 

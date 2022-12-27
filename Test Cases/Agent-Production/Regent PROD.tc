@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OceaniaTesting</name>
+   <name>Regent PROD</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>594258b1-0835-4e52-a614-d0d3224a7116</testCaseGuid>
+   <testCaseGuid>50f36326-9aba-4bf9-8500-be32ca35f9a4</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>79518e68-8b22-43bf-aeb8-a4660bb86476</variableId>
+      <variableId>f349412b-f3a0-4a47-8091-77f69571221b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</variableId>
+      <variableId>d3652432-a652-4764-97bc-ad09db7adae0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4c8414e5-7a25-4f6f-b308-cddd2e513ace</variableId>
+      <variableId>d272de47-0723-4a34-8f48-1c2d51d5bf7c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'12-day Island Jubilee: Bridgetown To Miami'</defaultValue>
+      <defaultValue>'143-days Navigate The World: From Miami, Florida To Barcelona, Spain'</defaultValue>
       <description></description>
-      <id>79518e68-8b22-43bf-aeb8-a4660bb86476</id>
+      <id>f349412b-f3a0-4a47-8091-77f69571221b</id>
       <masked>false</masked>
       <name>Search1</name>
    </variable>
    <variable>
-      <defaultValue>'14-day Far East Interlude: Mumbai To Bangkok'</defaultValue>
+      <defaultValue>'14-days Lord Of The Fjords: From Sydney, Australia To Auckland, New Zealand'</defaultValue>
       <description></description>
-      <id>ba0a0fb9-3d84-4162-84b3-ab84e1fca147</id>
+      <id>d3652432-a652-4764-97bc-ad09db7adae0</id>
       <masked>false</masked>
       <name>Search2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4c8414e5-7a25-4f6f-b308-cddd2e513ace</id>
+      <id>d272de47-0723-4a34-8f48-1c2d51d5bf7c</id>
       <masked>false</masked>
       <name>Search3</name>
    </variable>
