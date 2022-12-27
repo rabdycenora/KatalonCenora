@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NCLPROD</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3231bb3-591a-46ab-9994-22c5cd40f511</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a17f58af-1eca-4660-bd1a-0879029cde7c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d61e4f64-d938-4323-a211-5822a28a0c5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a694d04d-7993-4104-9906-d664b471888e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'9-Day Caribbean Round-Trip Miami: Dominican Republic &amp; St. Thomas'</defaultValue>
+      <description></description>
+      <id>a17f58af-1eca-4660-bd1a-0879029cde7c</id>
+      <masked>false</masked>
+      <name>Search1</name>
+   </variable>
+   <variable>
+      <defaultValue>'7-Day Hawaii Inter-island From Honolulu'</defaultValue>
+      <description></description>
+      <id>d61e4f64-d938-4323-a211-5822a28a0c5e</id>
+      <masked>false</masked>
+      <name>Search2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a694d04d-7993-4104-9906-d664b471888e</id>
+      <masked>false</masked>
+      <name>Search3</name>
+   </variable>
+</TestCaseEntity>

@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Card_origen</name>
    <tag></tag>
-   <elementGuidId>f493dace-7b20-4007-b948-eb3f818a920b</elementGuidId>
+   <elementGuidId>8a0778aa-3936-49c0-a4c0-74493e9c695e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.q-img__content.absolute-full</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>.//div[@class='q-carousel__slide q-pa-none']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.q-img__content.absolute-full</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>52d47549-c921-4af5-85f4-827a3eedec4c</webElementGuid>
+      <webElementGuid>08f9e742-1323-4126-88f3-6b82dc175059</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>q-img__content absolute-full</value>
-      <webElementGuid>c704c17a-4bbd-45ba-88ca-d7cce80e40e1</webElementGuid>
+      <webElementGuid>90d21a70-9ac5-49e4-8db2-5d921cacb9f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;q-app&quot;)/div[@class=&quot;full-width column justify-center items-center auth-bg&quot;]/div[@class=&quot;q-py-xl bg-white column justify-center items-center content-center login-box-shadown&quot;]/div[1]/div[@class=&quot;q-img overflow-hidden&quot;]/div[@class=&quot;q-img__content absolute-full&quot;]</value>
-      <webElementGuid>1e5580c2-4992-44bb-8d73-2834214f6d9b</webElementGuid>
+      <webElementGuid>ef36d5eb-4f74-492a-981a-f2867bf1b4e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Flujo Completo/Page_NCL Live Experience/iframe_Search</value>
-      <webElementGuid>84b66211-f572-4839-8a64-0689cd783f80</webElementGuid>
+      <webElementGuid>5f13bb36-587e-4ec5-82b3-b434710856f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='q-app']/div/div/div/div/div[3]</value>
-      <webElementGuid>c3c77c08-276f-460d-81ca-afd75c9610b6</webElementGuid>
+      <webElementGuid>3580a541-c1ba-4f6f-b983-fc6762fdb540</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,6 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]</value>
-      <webElementGuid>e14490c0-555d-45ad-9d9b-a24887285d0b</webElementGuid>
+      <webElementGuid>003beef4-f98e-4db8-ab67-c6e421527899</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
