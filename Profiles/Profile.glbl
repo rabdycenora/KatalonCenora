@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://regent.live/'</initValue>
+      <initValue>'https://rssc.live/'</initValue>
       <name>RegentConPROD</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -118,5 +118,35 @@
       <description></description>
       <initValue>'https://oceania.live/'</initValue>
       <name>OceaniaConPROD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sandals.testing.agent.cenora.io/'</initValue>
+      <name>SandalsTesting</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sandals.staging.agent.cenora.io/'</initValue>
+      <name>SandalsStaging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sandals.cenora.io/'</initValue>
+      <name>SandalsPROD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sandals.testing.consumer.cenora.io/'</initValue>
+      <name>SandalsConTesting</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sandals.staging.consumer.cenora.io/'</initValue>
+      <name>SandalsConStaging</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://sandals.live/'</initValue>
+      <name>SandalsConPROD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

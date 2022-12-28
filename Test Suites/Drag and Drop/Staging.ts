@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>NCL</name>
+   <name>Staging</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,9 +10,9 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>4a52a6dd-2671-48ea-acee-58a9021aa40c</testSuiteGuid>
+   <testSuiteGuid>e23c3c0e-93e9-4815-bf50-518ec80b0444</testSuiteGuid>
    <testCaseLink>
-      <guid>4c1b02bf-3edc-4282-8824-366ba19aa207</guid>
+      <guid>959d68a0-b0f3-42aa-a9ed-2e83e880d720</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Agent-Staging/NCLStaging</testCaseId>
@@ -37,53 +37,78 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>69764aa9-3bf1-433d-88fe-13355c312de8</guid>
+      <guid>f871a27c-510f-4852-ac99-5a8cead11d7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Agent-Testing/NCLTesting</testCaseId>
+      <testCaseId>Test Cases/Agent-Staging/Oceania Staging</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4f6aaa38-7fac-453a-b428-2a5aada84cbf</variableId>
+         <variableId>44837b44-9ba8-4296-9f72-afabdf8e706e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>aaf7f912-cc6d-4f7e-97c1-f3e69b38b39d</variableId>
+         <variableId>e7736723-2c8f-4c9f-b4d7-f3c925dcf702</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c4a67957-d46c-440b-8ef3-e35b90ae59f4</variableId>
+         <variableId>60d03f8e-030e-4790-869a-8e651917a4f4</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>cece1c33-5d08-4779-9117-d48853ec558e</guid>
+      <guid>67a530a1-99b4-43f5-a206-9610c5890c3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Agent-Production/NCLPROD</testCaseId>
+      <testCaseId>Test Cases/Agent-Staging/Regent Staging</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a17f58af-1eca-4660-bd1a-0879029cde7c</variableId>
+         <variableId>3278b2ae-7cfa-4aae-8dfd-d15ff0c1f465</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d61e4f64-d938-4323-a211-5822a28a0c5e</variableId>
+         <variableId>e41e06d8-0d1b-450b-80bb-c255113f15af</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a694d04d-7993-4104-9906-d664b471888e</variableId>
+         <variableId>454f77d5-7218-4e13-89a5-0d4450e6c0c7</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88e089f5-d26b-423f-aad5-259da471ca7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Agent-Staging/Sandals Staging</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f070ef78-acd7-4c36-9619-c0081c795934</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a2ac1155-0fd5-48ca-aca1-3dba7021c082</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aecc9896-101d-40cf-8175-8717d0ace729</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

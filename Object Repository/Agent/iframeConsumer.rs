@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe</name>
+   <name>iframeConsumer</name>
    <tag></tag>
    <elementGuidId>55a64104-91da-493f-9497-8b4dbdabe000</elementGuidId>
    <selectorCollection>

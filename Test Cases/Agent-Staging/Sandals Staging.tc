@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Sandals Staging</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66fc05c7-5746-4c85-a0e0-b9610ddca387</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f070ef78-acd7-4c36-9619-c0081c795934</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a2ac1155-0fd5-48ca-aca1-3dba7021c082</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aecc9896-101d-40cf-8175-8717d0ace729</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'9-Day Caribbean Round-Trip Miami: Dominican Republic &amp; St. Thomas'</defaultValue>
+      <description></description>
+      <id>f070ef78-acd7-4c36-9619-c0081c795934</id>
+      <masked>false</masked>
+      <name>Search1</name>
+   </variable>
+   <variable>
+      <defaultValue>'7-Day Hawaii Inter-island From Honolulu'</defaultValue>
+      <description></description>
+      <id>a2ac1155-0fd5-48ca-aca1-3dba7021c082</id>
+      <masked>false</masked>
+      <name>Search2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aecc9896-101d-40cf-8175-8717d0ace729</id>
+      <masked>false</masked>
+      <name>Search3</name>
+   </variable>
+</TestCaseEntity>

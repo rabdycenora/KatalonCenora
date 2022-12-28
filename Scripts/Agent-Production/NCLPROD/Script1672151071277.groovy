@@ -50,6 +50,8 @@ WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Emai
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_LogIn'))
 
+WebUI.takeScreenshot()
+
 WebUI.waitForElementPresent(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), 50)
 
 WebUI.delay(10)
@@ -66,6 +68,8 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/span_Code'))
 
+WebUI.takeScreenshot()
+
 WebUI.delay(3)
 
 Code = WebUI.getText(findTestObject('Flujo Completo/Page_NCL Live Experience/span_Code'))
@@ -79,6 +83,8 @@ WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_INVIT
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Button_InviteByCode'))
 
 WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Code'), Code, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Customer'), 'Automation')
 
@@ -118,6 +124,8 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Flujo Completo/Page_NCL Live Experience/Option_StandBy'))
 
 WebUI.sendKeys(findTestObject('Flujo Completo/Page_NCL Live Experience/input_Search'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
@@ -139,6 +147,8 @@ WebUI.switchToWindowIndex(1)
 WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.takeScreenshot()
 
 //WebUI.dragAndDropToObject(findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_origen'), findTestObject('Flujo Completo/Page_NCL Live Experience/div_Card_destin'), 
 //    FailureHandling.STOP_ON_FAILURE)

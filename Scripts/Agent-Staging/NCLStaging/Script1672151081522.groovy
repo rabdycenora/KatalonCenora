@@ -50,6 +50,8 @@ WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_Email_passwor
 
 WebUI.click(findTestObject('Login/Page_NCL Live Experience/Button_LogIn'))
 
+WebUI.takeScreenshot()
+
 WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/div_Card_origen'), 50)
 
 WebUI.delay(10)
@@ -66,6 +68,8 @@ WebUI.switchToWindowIndex(1)
 
 WebUI.click(findTestObject('Agent/span_Code'))
 
+WebUI.takeScreenshot()
+
 WebUI.delay(3)
 
 Code = WebUI.getText(findTestObject('Agent/span_Code'))
@@ -79,6 +83,8 @@ WebUI.click(findTestObject('Agent/Button_INVITE'))
 WebUI.click(findTestObject('Agent/Button_InviteByCode'))
 
 WebUI.setText(findTestObject('Agent/input_Code'), Code, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Agent/input_Customer'), 'Automation')
 
@@ -109,6 +115,8 @@ WebUI.switchToWindowIndex(1)
 WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.takeScreenshot()
 
 WebUI.delay(3)
 

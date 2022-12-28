@@ -6,12 +6,12 @@
    <elementGuidId>2fa48c82-1b31-4cf9-92e9-c88463cc3cee</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.access-code-box > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='q-app']/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.access-code-box > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Sesion for Code/Page_NCL/iframe</value>
+      <value>Object Repository/Agent/iframeConsumer</value>
       <webElementGuid>f850ef50-f6e9-4c59-a44c-2d6c4b232a0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

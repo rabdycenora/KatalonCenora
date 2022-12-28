@@ -50,6 +50,8 @@ WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_Email_passwor
 
 WebUI.click(findTestObject('Login/Page_NCL Live Experience/Button_LogIn'))
 
+WebUI.takeScreenshot()
+
 WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/div_Card_origen'), 50)
 
 WebUI.delay(10)
@@ -65,6 +67,8 @@ WebUI.navigateToUrl(GlobalVariable.OceaniaConStaging)
 WebUI.switchToWindowIndex(1)
 
 WebUI.click(findTestObject('Agent/span_Code'))
+
+WebUI.takeScreenshot()
 
 WebUI.delay(3)
 
@@ -82,6 +86,8 @@ WebUI.setText(findTestObject('Agent/input_Code'), Code, FailureHandling.STOP_ON_
 
 WebUI.setText(findTestObject('Agent/input_Customer'), 'Automation')
 
+WebUI.takeScreenshot()
+
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Agent/Button_START'))
@@ -91,8 +97,6 @@ WebUI.click(findTestObject('Agent/Option_StandBy'))
 WebUI.click(findTestObject('Agent/Option_DisablerUser'))
 
 WebUI.click(findTestObject('Agent/Option_EnabledPointer'))
-
-WebUI.click(findTestObject('Agent/Option_DisablerUser'))
 
 WebUI.switchToWindowIndex(1)
 
@@ -109,6 +113,8 @@ WebUI.switchToWindowIndex(1)
 WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.takeScreenshot()
 
 WebUI.delay(3)
 

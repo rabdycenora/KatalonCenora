@@ -20,7 +20,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.RegentStaging)
+WebUI.navigateToUrl(GlobalVariable.SandalsStaging)
 
 WebUI.maximizeWindow()
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Login/Page_NCL Live Experience/div_CLick'))
 
 WebUI.waitForElementPresent(findTestObject('Login/Page_NCL Live Experience/input_username'), 20)
 
-WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_username'), GlobalVariable.UserRegent)
+WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_username'), GlobalVariable.UserSandals)
 
 WebUI.setText(findTestObject('Login/Page_NCL Live Experience/input_Email_password'), GlobalVariable.Pass)
 
@@ -62,7 +62,7 @@ WebUI.click(findTestObject('Agent/Select_Dashboard'))
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.navigateToUrl(GlobalVariable.RegentConStaging)
+WebUI.navigateToUrl(GlobalVariable.SandalsConStaging)
 
 WebUI.switchToWindowIndex(1)
 
@@ -84,21 +84,15 @@ WebUI.click(findTestObject('Agent/Button_InviteByCode'))
 
 WebUI.setText(findTestObject('Agent/input_Code'), Code, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Agent/input_Customer'), 'Automation')
-
 WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Agent/input_Customer'), 'Automation')
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Agent/Button_START'))
 
-WebUI.click(findTestObject('Agent/Option_StandBy'))
-
-WebUI.click(findTestObject('Agent/Option_DisablerUser'))
-
-WebUI.click(findTestObject('Agent/Option_EnabledPointer'))
-
-WebUI.click(findTestObject('Agent/Option_DisablerUser'))
+WebUI.delay(3)
 
 WebUI.switchToWindowIndex(1)
 
@@ -106,34 +100,24 @@ WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.setText(findTestObject('Agent/input_Search'), Search1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Agent/div_Sandals'))
+
+WebUI.click(findTestObject('Agent/div_ByActivity'))
+
+WebUI.click(findTestObject('Agent/div_ByActivity_Golf'))
+
+WebUI.click(findTestObject('Agent/Button_DONE'))
+
+WebUI.click(findTestObject('Agent/div_ByLocation'))
+
+WebUI.click(findTestObject('Agent/div_ByLocation_Curacao'))
+
+WebUI.click(findTestObject('Agent/Button_DONE'))
 
 WebUI.dragAndDropByOffset(findTestObject('Agent/div_Card_origen'), 600, 200)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.delay(3)
 
 WebUI.takeScreenshot()
 
-WebUI.switchToWindowIndex(0)
-
-WebUI.delay(3)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.delay(3)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Agent/Option_StandBy'))
-
-WebUI.sendKeys(findTestObject('Agent/input_Search'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
-
-WebUI.setText(findTestObject('Agent/input_Search'), Search2, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.dragAndDropByOffset(findTestObject('Agent/div_Card_origen'), 600, 200)
-
 WebUI.switchToWindowIndex(1)
 
 WebUI.delay(3)
@@ -147,6 +131,8 @@ WebUI.switchToWindowIndex(1)
 WebUI.delay(3)
 
 WebUI.switchToWindowIndex(0)
+
+WebUI.delay(3)
 
 //WebUI.dragAndDropToObject(findTestObject('Agent/div_Card_origen'), findTestObject('Agent/div_Card_destin'), 
 //    FailureHandling.STOP_ON_FAILURE)
